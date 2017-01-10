@@ -1,0 +1,24 @@
+{
+  "groupName": "Admin",
+  "members": [],
+  "perms": [
+    "*",
+    "cmd.ccdebug",
+    "cmd.luck",
+    "cmd./lootbagsitemdump",
+    "cmd.ob_inventory",
+    "cmd.enderstorage",
+    "cmd.freq",
+    "cmd.checkwarp",
+    "cmd.iis",
+    "cmd.om_source_s",
+    "cmd.flimflam",
+    "cmd.minetweaker",
+    "cmd.om_config_s",
+    "cmd.chunkloaders",
+    "cmd./lootbags_identifysources",
+    "cmd.AlterRate"
+  ],
+  "parentGroup": "Moderator",
+  "chatColor": "red"
+}

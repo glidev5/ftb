@@ -1,0 +1,21 @@
+lastAccountName: ultranium
+timestamps:
+  login: 1481247083791
+  logout: 1481247098043
+  lastteleport: 1480910342613
+ipAddress: 69.166.125.64
+lastlocation:
+  world: world
+  x: 156.28671414636767
+  y: 53.0
+  z: 391.3353438284429
+  yaw: 188.55112
+  pitch: 10.349977
+logoutlocation:
+  world: DIM6
+  x: 26.630616293768554
+  y: 80.0
+  z: -14.714611362888963
+  yaw: -272.0987
+  pitch: 17.699978
+afk: false

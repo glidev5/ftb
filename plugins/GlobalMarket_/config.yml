@@ -1,0 +1,83 @@
+# GlobalMarket config: v2.0.0.28
+# 
+# Persistence options. Valid options are 'flat' and 'redis' (Default: flat)
+# Pointing two GlobalMarket instances at the same Redis server allows them to share data.
+# If using a multi-server setup, set 'persistence.saveInterval' to zero on all but one server.
+# If changed while the server is running, for example from flat to redis, GlobalMarket will /ERASE/
+# the new storage method and import all loaded data into it from the previous persistance method.
+server:
+  enable: false
+automatic_payments: true
+enable_cut: false
+cut_amount: 5.0
+enable_metrics: true
+max_price: 0.0
+creation_fee: 0.0
+queue:
+  trade_time: 0
+  mail_time: 0
+  queue_mail_on_buy: true
+  queue_on_cancel: true
+max_listings_per_player: 256
+expire_time: 168
+price_check:
+  enable: true
+infinite:
+  seller: Server
+  account: ''
+notify_on_update: true
+blacklist:
+  item_name:
+  - Transaction Log
+  - Market History
+  item_id:
+    '0': 0
+  enchant_id: []
+  enchant_lore: []
+  use_with_mail: false
+persistence:
+  method: flat
+  redis:
+    address: localhost
+    port: 6379
+    poolSize: 16
+    password: ''
+  saveInterval: 1200
+autoclicker_defense_threshold: 20
+enable_autoclicker_logging: true
+locale_file: en_US
+disable_stock_system: false
+stock_slots: 16
+stock_slots_groups:
+- default:0
+stock_slots_size: 320
+stock_slots_size_groups:
+- default:0
+stock_delay: 0
+listings_expire_time: 12
+listings_cut_amount: 0.05
+command_root_name: market
+creation_menu_increments:
+  '1': 1
+  '2': 5
+  '3': 10
+  '4': 50
+  '5': 100
+  '6': 500
+  '7': 1000
+  '8': 5000
+  '9': 10000
+enable_infinite_listings: true
+enable_debug: false
+enable_storage: false
+storage_store_amount: 640.0
+storage_withdraw_amount: 320.0
+menu_function_items:
+  FUNC_PREVPAGE: minecraft:map:0
+  FUNC_NEXTPAGE: minecraft:map:0
+  FUNC_NAVIGATION: minecraft:chest:0
+  FUNC_SERVER_LISTINGS_NAVIGATION: minecraft:chest:0
+  FUNC_STORAGE_NAVIGATION: minecraft:chest:0
+  FUNC_NOSTOCK_CREATE_LISTING: minecraft:hopper:0
+  FUNC_CREATE_LISTING_CANCEL: minecraft:stained_glass_pane:14
+  FUNC_CREATE_LISTING_CREATE: minecraft:stained_glass_pane:5

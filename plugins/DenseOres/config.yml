@@ -1,0 +1,19 @@
+Important_Note: The ore Name is the chance out of the 'Out_Of' value
+Important_Note_2: The ore Name_Amount is the amount spawned when the chance is hit
+Out_Of: 360
+Coal: 36
+Coal_Amount: 2
+Iron: 30
+Iron_Amount: 2
+Gold: 26
+Gold_Amount: 2
+Redstone: 20
+Redstone_Amount: 2
+Lapis: 23
+Lapis_Amount: 2
+Diamond: 18
+Diamond_Amount: 2
+Emerald: 16
+Emerald_Amount: 2
+Quartz: 24
+Quartz_Amount: 2

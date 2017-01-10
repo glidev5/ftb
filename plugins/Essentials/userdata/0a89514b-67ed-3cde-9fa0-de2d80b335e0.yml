@@ -1,0 +1,29 @@
+lastAccountName: solitude
+timestamps:
+  login: 1481247112497
+  logout: 1481252272311
+  lastteleport: 1481252219350
+ipAddress: 69.166.125.64
+lastlocation:
+  world: world
+  x: -489.95710940727946
+  y: 64.0
+  z: 159.1907428423508
+  yaw: -286.79837
+  pitch: 11.099981
+logoutlocation:
+  world: DIM6
+  x: 16.724494007514277
+  y: 80.0
+  z: -29.110195684384205
+  yaw: -0.8985901
+  pitch: 10.64996
+afk: false
+homes:
+  home:
+    world: world
+    x: -507.9443606230518
+    y: 65.0
+    z: 178.78913402654052
+    yaw: 120.90153
+    pitch: 16.649975

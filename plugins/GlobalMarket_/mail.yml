@@ -1,0 +1,101 @@
+index:
+  solitude: 4
+  ultranium: 4
+solitude:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK
+        title: Transaction Log
+        pages:
+        - 'Market Transaction Log
+
+
+          Item sold: Coalx1
+
+
+          Sale price: 1000000.0
+
+
+          Market cut: 5000000.0
+
+
+          Amount recieved: -4000000.0'
+    time: 1476824062
+    amount: -4000000.0
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK
+        title: Transaction Log
+        pages:
+        - 'Market Transaction Log
+
+
+          Item sold: Coalx1
+
+
+          Sale price: 1000000.0
+
+
+          Market cut: 5000000.0
+
+
+          Amount recieved: -4000000.0'
+    time: 1476824064
+    amount: -4000000.0
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK
+        title: Transaction Log
+        pages:
+        - 'Market Transaction Log
+
+
+          Item sold: Coalx1
+
+
+          Sale price: 1000000.0
+
+
+          Market cut: 5000000.0
+
+
+          Amount recieved: -4000000.0'
+    time: 1476824065
+    amount: -4000000.0
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK
+        title: Transaction Log
+        pages:
+        - 'Market Transaction Log
+
+
+          Item sold: Coalx1
+
+
+          Sale price: 1000000.0
+
+
+          Market cut: 5000000.0
+
+
+          Amount recieved: -4000000.0'
+    time: 1476824066
+    amount: -4000000.0
+ultranium: {}

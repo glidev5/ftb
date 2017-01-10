@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#java -server -Dfml.queryResult=confirm -Xms256m -Xmx2800m -XX:PermSize=128m -XX:MaxPermSize=256m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -jar cauldron-1.7.10-2.1403.1.54-server.jar nogui
+
+java -server -Dfml.queryResult=confirm -Xms256m -Xmx2800m -XX:+UseConcMarkSweepGC -jar thermos.jar nogui 2>&1 | tee -a minecraftrun.log
+
+#java -jar Thermos-1.7.10-1558-server.jar
+echo Server process has ended

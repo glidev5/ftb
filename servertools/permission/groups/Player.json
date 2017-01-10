@@ -1,0 +1,29 @@
+{
+  "groupName": "Player",
+  "members": [
+    "9a58baf2-f017-36f3-a431-2313ef5919a7",
+    "0a89514b-67ed-3cde-9fa0-de2d80b335e0"
+  ],
+  "perms": [
+    "cmd.motd",
+    "cmd.ping",
+    "cmd.teleport",
+    "cmd.back",
+    "cmd.home",
+    "cmd.whereis",
+    "cmd.mca",
+    "cmd.sendwaypoint",
+    "cmd.netstat",
+    "cmd.railcraft",
+    "cmd.cofh",
+    "cmd.instantblocks",
+    "cmd.help",
+    "cmd.tprequest",
+    "cmd.tps",
+    "cmd.iskamiunlocked",
+    "cmd.nick",
+    "cmd.tpdim",
+    "cmd.listperms"
+  ],
+  "chatColor": "white"
+}

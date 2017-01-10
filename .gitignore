@@ -1,0 +1,16 @@
+world*/
+world-*.zip
+logs/
+*.log
+mods/
+.git2/
+backup*/
+crash-reports/
+download/
+hold/
+mods-original/
+
+
+
+
+
